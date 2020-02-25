@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+.bg-black {
+  background-color: #000;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fs-35 {
+  font-size: 35px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fw-bold {
+  font-weight: 700;
+}
+.fw-medium {
+  font-weight: 500;
+}
+
+/* Header aria */
+#header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: left 0.3s ease;
+}
+#header nav {
+  height: 100vh;
+}
+#header .nav-link {
+  margin: 0.7rem 1rem;
+  border-bottom: 1px solid lightgray;
+  color: #d8d6d6fa !important;
+  text-transform: uppercase;
+}
+#header .nav-link:hover {
+  color: #fff !important;
+}
+
+#header .toogle-button {
+  background: none !important;
+  top: 0;
+  right: 25px;
+  position: fixed;
+  border: none;
+  /* border: 1px solid lightgray; */
+}
+#header .toogle-button:focus {
+  border: none !important;
+  outline: none !important;
+}
+.toogle-left {
+  left: 0 !important;
+  width: 1000px !important;
+}
