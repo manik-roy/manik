@@ -20,3 +20,9 @@ function toogle_onclik($win, $nabvar, width) {
         $nabvar.css({left:'0px'})
     }
 }
+// type js
+var typed = new Typed('#typed', {
+    strings: ["Front End Developer.", "a Frelencer"],
+    typeSpeed: 10,
+    loop: true
+  });
