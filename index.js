@@ -34,3 +34,16 @@ let typed2 = new Typed('#typed2', {
     backSpeed: true,
     loop: true,
 });
+
+// HTML CSS JSResult
+const progressess = document.querySelectorAll('.progress-done');
+    progressess.forEach(progress => {
+        setTimeout(function(){
+        progress.style.opacity = 1;
+        progress.style.width=progress.getAttribute('data-done')+'%'
+        progress.innerHTML = `<p class="skilss-text ">${progress.getAttribute('data-done')} </p> %`
+        },1000)
+    })
+
+
+

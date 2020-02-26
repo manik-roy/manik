@@ -97,3 +97,33 @@ body {
 .lightgray {
   background-color:rgb(236, 236, 236);
 }
+
+/* progress bar */
+.progress-bar {
+  height:20px;
+  width:95%;
+  background:gray;
+  border-radius:30px;
+}
+.progress-done {
+  width:0;
+  height:100%;
+  box-shadow:0 3px 3px -5px #f2709c, 0 2px 5px #f2709c;
+  background:linear-gradient(to right, rgb(218, 68, 83), rgb(137, 33, 107));
+  border-radius:30px;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  color:#fff;
+  opacity:0;
+  transition:1s;
+  padding-right: 5%;
+}
+.skilss-text {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.skills-progress-aia p.text-left {
+  margin-bottom: 0 !important;
+}
